@@ -1,0 +1,117 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Gate",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "connections": {
+                "right": 3,
+                "up": 2
+            }
+        },
+        {
+            "id": 2,
+            "name": "Boathouse",
+            "position": {
+                "x": 5,
+                "y": 0,
+                "z": 10
+            },
+            "items": [
+                "boat",
+                "rope"
+            ],
+            "connections": {
+                "left": 1
+            }
+        },
+        {
+            "id": 3,
+            "name": "Door",
+            "position": {
+                "x": -5,
+                "y": 0,
+                "z": 10
+            },
+            "items": [
+                "lock",
+                "handle"
+            ],
+            "connections": {
+                "down": 1,
+                "up": 4 
+            }
+        },
+        {
+            "id": 4,
+            "name": "Main Gallery",
+            "position": {
+                "x": 10,
+                "y": 0,
+                "z": 20
+            },
+            "items": [
+                "painting",
+                "diary"
+            ],
+            "connections": {
+                "down": 3,
+                "left": 5,
+                "right": 6
+            }
+        },
+        {
+            "id": 5,
+            "name": "Service Room",
+            "position": {
+                "x": -10,
+                "y": 0,
+                "z": 20
+            },
+            "items": [
+                "tools",
+                "blueprint"
+            ],
+            "connections": {
+                "left": 4
+            }
+        },
+        {
+            "id": 6,
+            "name": "Stairs",
+            "position": {
+                "x": 15,
+                "y": 0,
+                "z": 30
+            },
+            "items": [
+                "lantern"
+            ],
+            "connections": {
+                "right": 4,
+                "up": 7
+            }
+        },
+        {
+            "id": 7,
+            "name": "Lantern Room",
+            "position": {
+                "x": 20,
+                "y": 10,
+                "z": 40
+            },
+            "items": [
+                "crystal",
+                "journal"
+            ],
+            "connections": {
+                "back": 6
+            }
+        }
+    ]
+}
+  

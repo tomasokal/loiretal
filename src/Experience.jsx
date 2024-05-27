@@ -6,10 +6,16 @@ import PlayerCamera from './tests/PlayerCamera'
 
 export default function Experience()
 {
+
+    // What we are tracking
+    // Inventory
+    // Room
+    // Room Events
+    // Global Events
     
     return <>
 
-        <PlayerCamera />
+        {/* <PlayerCamera /> */}
 
         <World />
         <ambientLight intensity={0.5} />
